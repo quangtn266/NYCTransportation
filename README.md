@@ -36,6 +36,24 @@ I will run it in the container following the steps (tech-stack):
 ├── requirements.txt
 └── README.md
 
+├── src
+│   ├── controller
+│   │   ├── **/*.css
+│   ├── views
+│   ├── model
+│   ├── index.js
+├── public
+│   ├── css
+│   │   ├── **/*.css
+│   ├── images
+│   ├── js
+│   ├── index.html
+├── dist (or build
+├── node_modules
+├── package.json
+├── package-lock.json 
+└── .gitignore
+
 ### To run code
 1. docker-compose up -d (start running)
 2. docker-compose down -v (stop running)
