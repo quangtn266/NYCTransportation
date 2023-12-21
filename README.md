@@ -19,18 +19,18 @@ I will run it in the container following the steps (tech-stack):
 .
 ├── dags
 ├── services
-│    ├── airflow
-│    ├── citbibike_api
-│    ├── citbibike_db
-│    ├── nyc_transportation_api
-│    ├── result_db
-│    ├── taxi_db
-│    ├── taxi_fileserver
+│   ├── airflow
+│   ├── citbibike_api
+│   ├── citbibike_db
+│   ├── nyc_transportation_api
+│   ├── result_db
+│   ├── taxi_db
+│   ├── taxi_fileserver
 ├── src
-│    ├── nyc_transport
-│    │      ├── hook
-│    │      ├── operators
-│    ├── nyctransport.egg-info
+│   ├── nyc_transport
+│   │   ├── hook
+│   │   ├── operators
+│   ├── nyctransport.egg-info
 ├── docker-compose.yml
 ├── Makefile
 ├── requirements.txt
