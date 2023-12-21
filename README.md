@@ -16,6 +16,7 @@ I will run it in the container following the steps (tech-stack):
 
 ## Structure code.
 
+```
 .
 ├── dags
 ├── services
@@ -35,16 +36,7 @@ I will run it in the container following the steps (tech-stack):
 ├── Makefile
 ├── requirements.txt
 └── README.md
-
-|-- kibana
-    |-- .bowerrc
-    |-- .gitignore
-    |-- .jshintrc
-    |-- .travis.yml
-    |-- CONTRIBUTING.md
-    |-- FAQ.md
-    |-- Gruntfile.js
-    |-- LICENSE.md
+```
 
 ### To run code
 1. docker-compose up -d (start running)
