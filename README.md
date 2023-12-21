@@ -17,8 +17,8 @@ I will run it in the container following the steps (tech-stack):
 ## Structure code.
 
 .
-├── dags                           # DAG folder contain dag files
-├── services                       # services for the project
+├── dags
+├── services
 │    ├── airflow
 │    ├── citbibike_api
 │    ├── citbibike_db
@@ -26,7 +26,7 @@ I will run it in the container following the steps (tech-stack):
 │    ├── result_db
 │    ├── taxi_db
 │    ├── taxi_fileserver
-├── src                             # Source files 
+├── src
 │    ├── nyc_transport
 │    │      ├── hook
 │    │      ├── operators
